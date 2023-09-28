@@ -7,7 +7,7 @@ export default function ServiceIconBox() {
 
   const services = [
     {
-      imgLink: "./images/icon/icon1.png",
+      imgLink: "./images/icon/service_icon_1.svg",
       title: "Sketches",
       text: "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
       effect: "zoom-out-up",
