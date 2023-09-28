@@ -1,8 +1,7 @@
-// import SectionHeading from "../SectionHeading/SectionHeading";
 
+import Div from "../Div";
 import SectionHeading from "../SectionHeading";
-// components/IconBox/Iconbox.jsx
-import styles from './Iconbox.module.scss';
+import Spacing from "../Spacing";
 
 export default function ServiceIconBox() {
 
@@ -57,14 +56,20 @@ export default function ServiceIconBox() {
     },
   ];
   return (
-    <section>
-      <div className="st-height-b100 st-height-lg-b80"></div>
-      <SectionHeading title={"Service"} />
-      <div className="container">
-        <div className="row">
-          {services.map((element, index) => (
+    <>
+     <Div id="service">
+       <Div className="container">
+       <Div className="row">
+       <SectionHeading
+                  title="Services I can help you with"
+                  subtitle="What Can I Do"
+                  btnText="See All Services"
+                  btnLink="/service"
+                />
+                <Spacing lg="90" md="45" />
+       {services.map((element, index) => (
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-4 col-md-6 cs-card cs-style1"
               key={index}
               data-aos={element.effect ? element.effect : "zoom-out-up"}
               data-aos-duration={element.duration ? element.duration : "800"}
@@ -80,10 +85,12 @@ export default function ServiceIconBox() {
               <div className="st-height-b30 st-height-lg-b30"></div>
             </div>
           ))}
-        </div>
-      </div>
-      <div className="st-height-b70 st-height-lg-b50"></div>
-    </section>
+
+        </Div>
+       </Div>
+     </Div>
+    </>
+
   );
 };
 

@@ -84,7 +84,7 @@ export default function Home() {
         {/* End FunFact Section */}
 
 
-        <ServiceIconBox/>
+        
 
         {/* Start Service Section */}
         <Spacing lg="150" md="80" />
@@ -147,6 +147,7 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
+        <ServiceIconBox/>
         {/* End Service Section */}
 
         {/* Start Portfolio Section */}
