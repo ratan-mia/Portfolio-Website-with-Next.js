@@ -2,13 +2,15 @@
 import Div from "../Div";
 import SectionHeading from "../SectionHeading";
 import Spacing from "../Spacing";
+import { Icon } from '@iconify/react';
 
 
 export default function ServiceIconBox() {
 
   const services = [
-    {
+       {
       imgLink: "./images/icons/wordpress.svg",
+      icon:"ic:baseline-wordpress",
       title: "WordPress Development",
       text: "I specialize in creating dynamic and user-friendly websites using WordPress. Whether you need a blog, portfolio site, or e-commerce platform, I'll customize WordPress to suit your unique requirements",
       effect: "zoom-out-up",
@@ -79,6 +81,7 @@ export default function ServiceIconBox() {
             >
               <div className={`st-iconbox st-style1`}>
                 <div className="st-iconbox-icon">
+                  <Icon icon="{element.icon}" />
                   <img src={element.imgLink} alt="Icon" />
                 </div>
                 <h2 className="st-iconbox-title">{element.title}</h2>
