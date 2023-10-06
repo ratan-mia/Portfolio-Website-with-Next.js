@@ -3,57 +3,59 @@ import Div from "../Div";
 import SectionHeading from "../SectionHeading";
 import Spacing from "../Spacing";
 
+
 export default function ServiceIconBox() {
 
   const services = [
     {
-      imgLink: "./images/icon/service_icon_1.svg",
-      title: "Sketches",
-      text: "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+      imgLink: "./images/icons/wordpress.svg",
+      title: "WordPress Development",
+      text: "I specialize in creating dynamic and user-friendly websites using WordPress. Whether you need a blog, portfolio site, or e-commerce platform, I'll customize WordPress to suit your unique requirements",
       effect: "zoom-out-up",
+      duration: "500",
+      delay: "500",
+    },
+    {
+      imgLink: "./images/icons/shopify.svg",
+      title: "Shopify Development",
+      text: "Elevate your e-commerce business with Shopify. I design and develop Shopify stores that are visually appealing, easy to manage, and optimized for sales and conversions.",
+      effect: "zoom-out-up",
+      duration: "500",
+      delay: "600",
+    },
+    {
+      imgLink: "./images/icons/laravel.svg",
+      title: "Laravel Development",
+      text: "Unlock the power of Laravel for web application development. I harness the versatility and scalability of Laravel to build robust, secure, and feature-rich web applications",
+      effect: "zoom-out-up",
+      duration: "500",
+      delay: "700",
+    },
+    {
+      imgLink: "./images/icons/code-solid.svg",
+      title: "Web Development",
+      text: "I specialize in creating responsive and visually appealing websites using the latest technologies. From front-end design to back-end development, I bring your web projects to life",
+      effect: "zoom-out-up", 
       duration: "500",
       delay: "200",
     },
     {
-      imgLink: "./images/icon/icon2.png",
-      title: "UI/UX Design",
-      text: "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+      imgLink: "./images/icons/cart-shopping-solid.svg",
+      title: "E-commerce Solutions",
+      text: "Need an online store? I can develop e-commerce platforms with secure payment gateways, inventory management, and seamless user experiences.",
       effect: "zoom-out-up",
       duration: "500",
       delay: "300",
     },
     {
       imgLink: "./images/icon/icon3.png",
-      title: "Product Design",
-      text: "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+      title: "Custom Web APP Development",
+      text: "Enhance your website's functionality with custom plugins and apps tailored to your specific needs. I can create unique features to set your site apart",
       effect: "zoom-out-up",
       duration: "500",
       delay: "400",
     },
-    {
-      imgLink: "./images/icon/icon4.png",
-      title: "App Design",
-      text: "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
-      effect: "zoom-out-up",
-      duration: "500",
-      delay: "500",
-    },
-    {
-      imgLink: "./images/icon/icon5.png",
-      title: "Motion Graphics",
-      text: "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
-      effect: "zoom-out-up",
-      duration: "500",
-      delay: "600",
-    },
-    {
-      imgLink: "./images/icon/icon6.png",
-      title: "Responsive Design",
-      text: "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
-      effect: "zoom-out-up",
-      duration: "500",
-      delay: "700",
-    },
+ 
   ];
   return (
     <>
