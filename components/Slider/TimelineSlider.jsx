@@ -8,44 +8,30 @@ export default function TimelineSlider() {
   const timelineData = [
     [
       {
-        year: '2019',
-        name: 'Google awards',
-        position: 'Website of the day',
-        type: 'Mobile exelence',
+        year: 'Sep, 2018 - Continue',
+        name: 'Kawasaki Bangladesh',
+        position: 'Full Stack Web Developer',
+        type: 'Collaborated on web applications and API designs. Developed a unique Car Parts E-commerce platform and optimized the Chery Bangladesh website, achieving a 97% speed increase.',
       },
       {
-        year: '2021',
-        name: 'CSS awards design',
-        position: 'Honorable mention',
-        type: 'Desktop exelence',
-      },
-    ],
-    [
-      {
-        year: '2020',
-        name: 'New technology innovation',
-        position: 'Honorable mention',
-        type: 'Desktop exelence',
-      },
-      {
-        year: '2022',
-        name: 'UI/UX design of the month',
-        position: 'Website of the day',
-        type: 'Mobile exelence',
+        year: 'Oct, 2018 - Continue',
+        name: 'Continental Motors',
+        position: 'IT Manager',
+        type: 'Oversaw IT operations, managed tech budgets, and maintained institutional servers. Pioneered an integrated call center and introduced a smart attendance system with automated payroll.',
       },
     ],
     [
       {
-        year: '2019',
-        name: 'Google awards',
-        position: 'Website of the day',
-        type: 'Mobile exelence',
+        year: 'Jan, 2018 - Sep, 2018',
+        name: 'Bengal Group of Industries',
+        position: 'Sr. Software Developer',
+        type: 'Championed Laravel-based e-commerce solutions and managed custom WordPress projects. Launched the "Pick4Less" platform and led a team of 15, enhancing client satisfaction by 25%.',
       },
       {
-        year: '2021',
-        name: 'CSS awards design',
-        position: 'Honorable mention',
-        type: 'Desktop exelence',
+        year: '2015 - Continue',
+        name: 'Upwork',
+        position: 'Freelancer',
+        type: 'Mastered WordPress and Shopify development. Engineered a store generating $13 million in sales annually and earned the "Top Rated Freelancer" badge.',
       },
     ],
   ];
