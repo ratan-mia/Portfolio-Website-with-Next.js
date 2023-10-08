@@ -4,6 +4,7 @@ import Cta from '../components/Cta';
 import Div from '../components/Div';
 import FunFact from '../components/FunFact';
 import Hero from '../components/Hero';
+import ServiceIconBox from '../components/IconBox/Iconbox';
 import Layout from '../components/Layout';
 import LogoList from '../components/LogoList';
 import MovingText from '../components/MovingText';
@@ -15,7 +16,6 @@ import TestimonialSlider from '../components/Slider/TestimonialSlider';
 import TimelineSlider from '../components/Slider/TimelineSlider';
 import Spacing from '../components/Spacing';
 import VideoModal from '../components/VideoModal';
-import ServiceIconBox from '../components/IconBox/Iconbox';
 
 export default function Home() {
   // Hero Social Links

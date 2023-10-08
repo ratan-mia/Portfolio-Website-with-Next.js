@@ -2,7 +2,7 @@
 import Div from "../Div";
 import SectionHeading from "../SectionHeading";
 import Spacing from "../Spacing";
-import { Icon } from '@iconify/react';
+
 
 
 export default function ServiceIconBox() {
@@ -10,7 +10,6 @@ export default function ServiceIconBox() {
   const services = [
        {
       imgLink: "./images/icons/wordpress.svg",
-      icon:"ic:baseline-wordpress",
       title: "WordPress Development",
       text: "I specialize in creating dynamic and user-friendly websites using WordPress. Whether you need a blog, portfolio site, or e-commerce platform, I'll customize WordPress to suit your unique requirements",
       effect: "zoom-out-up",
@@ -20,7 +19,7 @@ export default function ServiceIconBox() {
     {
       imgLink: "./images/icons/shopify.svg",
       title: "Shopify Development",
-      text: "Elevate your e-commerce business with Shopify. I design and develop Shopify stores that are visually appealing, easy to manage, and optimized for sales and conversions.",
+      text: "Elevate your e-commerce business with Shopify. I design and develop Shopify stores that are visually appealing, easy to manage, strategically optimized for increased sales and conversions.",
       effect: "zoom-out-up",
       duration: "500",
       delay: "600",
@@ -35,8 +34,8 @@ export default function ServiceIconBox() {
     },
     {
       imgLink: "./images/icons/code-solid.svg",
-      title: "Web Development",
-      text: "I specialize in creating responsive and visually appealing websites using the latest technologies. From front-end design to back-end development, I bring your web projects to life",
+      title: "Single Page Application (React.js)",
+      text: "I craft fluid, visually stunning SPAs using React.js. From interface design to dynamic interactions, I transform concepts into captivating web applications.",
       effect: "zoom-out-up", 
       duration: "500",
       delay: "200",
@@ -50,9 +49,9 @@ export default function ServiceIconBox() {
       delay: "300",
     },
     {
-      imgLink: "./images/icon/icon3.png",
-      title: "Custom Web APP Development",
-      text: "Enhance your website's functionality with custom plugins and apps tailored to your specific needs. I can create unique features to set your site apart",
+      imgLink: "./images/icons/cart-shopping-solid.svg",
+      title: "IT and Project Management",
+      text: "Combining deep IT expertise with Agile practices, I ensure projects align with organizational goals, delivering on time and with excellence.",
       effect: "zoom-out-up",
       duration: "500",
       delay: "400",
@@ -81,7 +80,6 @@ export default function ServiceIconBox() {
             >
               <div className={`st-iconbox st-style1`}>
                 <div className="st-iconbox-icon">
-                  <Icon icon="{element.icon}" />
                   <img src={element.imgLink} alt="Icon" />
                 </div>
                 <h2 className="st-iconbox-title">{element.title}</h2>
