@@ -1,15 +1,15 @@
-import Portfolio from '../Portfolio';
-import Div from '../Div';
-import Slider from 'react-slick';
 import { Icon } from '@iconify/react';
+import Slider from 'react-slick';
+import Div from '../Div';
+import Portfolio from '../Portfolio';
 
 export default function PortfolioSlider2() {
   const portfolioData = [
     {
-      title: 'Colorful Art Work',
+      title: 'Web Host GB',
       subtitle: 'See Details',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_31.jpeg',
+      src: '/images/portfolios/webhostgb.jpg',
     },
     {
       title: 'Colorful Art Work',

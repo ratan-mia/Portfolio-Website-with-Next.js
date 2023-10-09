@@ -10,6 +10,7 @@ import LogoList from '../components/LogoList';
 import MovingText from '../components/MovingText';
 import SectionHeading from '../components/SectionHeading';
 import PortfolioSlider from '../components/Slider/PortfolioSlider';
+import PortfolioSlider2 from '../components/Slider/PortfolioSlider2';
 import PostSlider from '../components/Slider/PostSlider';
 import TeamSlider from '../components/Slider/TeamSlider';
 import TestimonialSlider from '../components/Slider/TestimonialSlider';
@@ -203,7 +204,17 @@ export default function Home() {
           />
         </Div>
         {/* End Video Block Section */}
-
+   {/* Start PortfolioSlider Section */}
+   <Spacing lg="120" md="50" />
+        <Div className="container">
+          <h2 className="cs-font_50 cs-m0 cs-line_height_4">
+            Our agile process is ability to adapt and respond to change. Agile
+            organizations view change as an opportunity, not a threat.
+          </h2>
+        </Div>
+        <Spacing lg="90" md="70" />
+        <PortfolioSlider2 />
+        {/* End PortfolioSlider Section */}
         {/* Start Team Section */}
         <Spacing lg="145" md="80" />
         <Div className="container">
